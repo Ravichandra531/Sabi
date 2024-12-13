@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "BIZ UDPMincho", serif;
+    scroll-behavior: smooth;
+}
+.nav h1{
+    font-size: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.center{
+    text-align: center;
+}
+.center h2{
+    font-size: 75px;
+    padding: 80px 0 40px 0;
+}
+
+#page2 h2{
+    padding: 70px;
+    width: 40%;
+    font-size: 45px;
+}
+.project1{
+    Width:416rem;
+    Height:323rem;
+    Border:1px solid #00000000;
+}
+.project2{
+    Width:416rem;
+    Height:290rem;
+    Border:1px solid #00000000;
+}
+
+
+/* P3 */
+#page3{
+    height: 100%;
+    width: 100%;
+}
+#page3 .project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+/* #page3 .project .projects img:nth-child(odd){
+    height: 300px;
+}
+#page3 .project .projects img:nth-child(even){
+    height: 400px;
+    width: 2px;
+} */
+
+#page4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 90px;
+}
+#page4 p{
+    font-size: 30px;
+}
+
+#page5{
+    background: url(./footer.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#F2F6F5;
+}
+
+#page6{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background:#F2F6F5;
+}
+#page6 button{
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#page6 h2{
+    font-size: 30px;
+}
